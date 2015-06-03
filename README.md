@@ -10,11 +10,13 @@ Clarification for point 3. The stats job should print bandwidth stats _by URL_ i
 
 # Running the solution
 In order to run the solution:
-1.1 Copy log files into Hadoop at /user/bigData/logsProcessing/input
-1.2 Run createTables1.sql
-2.1 Copy log files into Hadoop at /user/bigData/logsProcessing/input
-2.2 Run createTables2.sql
-4. Run hiveHomework.sh like this:
+1.
+  - Copy log files into Hadoop at /user/bigData/logsProcessing/input
+  - Run createTables1.sql
+2. 
+  - Copy log files into Hadoop at /user/bigData/logsProcessing/input
+  - Run createTables2.sql
+3. Run hiveHomework.sh like this:
   - > ./hiveHomework.sh 1 IP //for point 1.
   - > ./hiveHomework.sh 2 //for point 2.
   - > ./hiveHomework.sh 3 //for point 3, full stats grouped on URL
