@@ -9,11 +9,11 @@ Run the stats job in HiveQL.
 Clarification for point 3. The stats job should print bandwidth stats _by URL_ instead of by status code. For bonus points, do a breakdown both by URL and status code :) The query result should include the full URL.
 
 # Running the solution
-In order to run the solution:
-1.
+In order to run the solution
+1. Step 1
   - Copy log files into Hadoop at /user/bigData/logsProcessing/input
   - Run createTables1.sql
-2. 
+2. Step 2
   - Copy log files into Hadoop at /user/bigData/logsProcessing/input
   - Run createTables2.sql
 3. Run hiveHomework.sh like this:
